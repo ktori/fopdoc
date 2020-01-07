@@ -35,6 +35,12 @@ Count | Name | Type | Info
  | Offset | float32 |
 -* | Row | struct | There are 33 row structs. Each row struct contains 33 `uint8` fields, representing 33 columns.
  | Unused | byte[3] |
+ 
+#### Row
+
+Name | Type | Info
+-----|------|-----
+items | uint8[33] |
 
 ### Layer Subrecord Collection
 
